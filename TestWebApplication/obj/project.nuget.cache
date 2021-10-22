@@ -1,15 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "hddUzuS0G9CWxUoTE2be7mkAsLl9xRRajd/aobXrl89mD8xaDgVSGeuTxyLR2kakKOP6QMpdT+k8uXbBJ9V2NA==",
+  "dgSpecHash": "rD/c2/clQooBgTgtl9abKkofM7Uo6lATPfcignDVAnHE4uxYUQeSr+b2aU68Cl3/iG8YyO2sqdUmvnmnH8lzig==",
   "success": true,
-  "projectFilePath": "C:\\Work\\NotWorkProjects\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+  "projectFilePath": "C:\\Users\\Anton\\RiderProjects\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Anton\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\mongodb.bson\\2.14.0-beta1\\mongodb.bson.2.14.0-beta1.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\mongodb.driver\\2.14.0-beta1\\mongodb.driver.2.14.0-beta1.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\mongodb.driver.core\\2.14.0-beta1\\mongodb.driver.core.2.14.0-beta1.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.3\\mongodb.libmongocrypt.1.2.3.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Anton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Anton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\Anton\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Anton\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }
