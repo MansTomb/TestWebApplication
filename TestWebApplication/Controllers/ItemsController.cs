@@ -22,20 +22,22 @@ namespace TestWebApplication.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<ItemDto>> GetItems()
+        public async Task<IEnumerable<ItemDto>> GetItemsAsync()
         {
             return (await _repository.GetItemsAsync()).Select(x => x.AsDto());
         }
 
         [HttpGet("{id:guid}")]
-        public async Task<ActionResult<ItemDto>> GetItem(Guid id)
+        public async Task<ActionResult<ItemDto>> GetItemAsync(Guid id)
         {
             var item = await _repository.GetItemAsync(id);
-            return item is null ? NotFound() : item.AsDto();
+            if (item is null)
+                return NotFound();
+            return item.AsDto();
         }
         
         [HttpPost]
-        public async Task<ActionResult<ItemDto>> CreateItem(CreateItemDto dto)
+        public async Task<ActionResult<ItemDto>> CreateItemAsync(CreateItemDto dto)
         {
             var item = new Item()
             {
@@ -47,11 +49,11 @@ namespace TestWebApplication.Controllers
 
             await _repository.CreateItemAsync(item);
 
-            return CreatedAtAction(nameof(GetItem), new {id = item.Id}, item.AsDto());
+            return CreatedAtAction(nameof(GetItemAsync), new {id = item.Id}, item.AsDto());
         }
         
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult> UpdateItem(Guid id, UpdateItemDto itemDto)
+        public async Task<ActionResult> UpdateItemAsync(Guid id, UpdateItemDto itemDto)
         {
             var item = await _repository.GetItemAsync(id);
             
@@ -70,7 +72,7 @@ namespace TestWebApplication.Controllers
         }
 
         [HttpDelete("{id:guid}")] 
-        public async Task<ActionResult> DeleteItem(Guid id)
+        public async Task<ActionResult> DeleteItemAsync(Guid id)
         {
             var item = await _repository.GetItemAsync(id);
             
