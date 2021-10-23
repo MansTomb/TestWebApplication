@@ -71,3 +71,6 @@ C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\ref\TestWebApplication.dll
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\TestWebApplication.pdb
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\TestWebApplication.genruntimeconfig.cache
+C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
