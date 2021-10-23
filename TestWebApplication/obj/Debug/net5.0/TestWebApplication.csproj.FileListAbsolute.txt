@@ -67,7 +67,6 @@ C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\staticwebassets\TestWebApplication.StaticWebAssets.xml
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\scopedcss\bundle\TestWebApplication.styles.css
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\TestWebApplication.RazorTargetAssemblyInfo.cache
-C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\TestWebApplication.csproj.CopyComplete
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\TestWebApplication.dll
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\ref\TestWebApplication.dll
 C:\Users\Anton\RiderProjects\TestWebApplication\TestWebApplication\obj\Debug\net5.0\TestWebApplication.pdb

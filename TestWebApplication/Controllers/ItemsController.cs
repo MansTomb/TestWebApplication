@@ -49,6 +49,7 @@ namespace TestWebApplication.Controllers
 
             await _repository.CreateItemAsync(item);
 
+            // ReSharper disable once Mvc.ActionNotResolved
             return CreatedAtAction(nameof(GetItemAsync), new {id = item.Id}, item.AsDto());
         }
         
