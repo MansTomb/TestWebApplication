@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using TestWebApplication.Dtos;
 using TestWebApplication.Entities;
 using TestWebApplication.Repositories;
@@ -15,15 +16,18 @@ namespace TestWebApplication.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly IItemsRepository _repository;
+        private readonly ILogger<ItemsController> _logger;
 
-        public ItemsController(IItemsRepository repository)
+        public ItemsController(IItemsRepository repository, ILogger<ItemsController> logger)
         {
             _repository = repository;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<IEnumerable<ItemDto>> GetItemsAsync()
         {
+            _logger.LogInformation("Retrieving items...");
             return (await _repository.GetItemsAsync()).Select(x => x.AsDto());
         }
 
