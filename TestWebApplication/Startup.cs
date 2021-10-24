@@ -69,10 +69,10 @@ namespace TestWebApplication
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestWebApplication v1"));
-            }
 
+            }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestWebApplication v1"));
             if (env.IsDevelopment())
             {
                 app.UseHttpsRedirection();

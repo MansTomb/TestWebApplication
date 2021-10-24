@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: testwebapplication
-          image: iwannalongnicknamethx/test_web_app:v2
+          image: iwannalongnicknamethx/test_web_app:v3
           resources:
             limits:
               memory: "128Mi"
