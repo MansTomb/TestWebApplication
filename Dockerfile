@@ -17,3 +17,6 @@ COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "TestWebApplication.dll"]
 
 
+
+
+
